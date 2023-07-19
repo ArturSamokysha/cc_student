@@ -1,0 +1,22 @@
+package pack;
+
+public class DemoSwitch {
+	public static void main(String[] args) {
+		switchStandart();
+	}
+	
+	public static void switchStandart() {
+		int schluesselZahl = 7;
+		switch(schluesselZahl) {
+		case 6: 
+			System.out.print("Sie haben 6 eingegeben");
+			break;
+		case 7:
+			System.out.print("Die Zahl ist 7");
+			break;
+		default: 
+			System.out.print("Wird aufgerufen, wenn keiner der Cases zutrifft");
+			break;
+		}
+	}
+}

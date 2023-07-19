@@ -1,0 +1,25 @@
+package pack;
+
+public class Temperatur {
+	public static void main(String[] args) {
+		final int TEMPERATUR = Integer.parseInt(args[1]);
+		
+		//final boolean PRECIPITATION = Boolean.parseBoolean(args[1]);
+		System.out.print(TEMPERATUR);
+		
+		
+		
+		
+//		if (TEMPERATUR >= 0) {
+//			
+//			if (TEMPERATUR <= 19) {
+//				
+//			}else {
+//				
+//			}
+//		}else {
+//			
+//		}
+			
+	}
+}
