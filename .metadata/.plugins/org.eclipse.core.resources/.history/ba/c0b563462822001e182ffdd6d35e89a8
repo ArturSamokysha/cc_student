@@ -1,0 +1,11 @@
+package operatoren;
+
+public class DemoArithmetischeOperationen {
+	public static void main(String[] args) {
+		//Addition
+		int zahl1 = 1;
+		int zahl2 = 2;
+		int intSumme = zahl1 + zahl2;
+		System.out.println("zahl1: %d + zahl2: d% = %d %n", zahl1, zahl2, intSumme);
+	}
+}

@@ -1,0 +1,10 @@
+package aufgaben;
+
+public class AufgabeVariablen {
+	public static void main(String[] args) {
+		//Deklaration
+		byte byteZahl;
+		byteZahl = 2;
+		System.out.print(byteZahl);
+	}
+}

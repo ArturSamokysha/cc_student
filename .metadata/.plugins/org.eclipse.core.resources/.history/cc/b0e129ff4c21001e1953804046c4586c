@@ -1,0 +1,11 @@
+package aufgaben;
+
+public class AufgabeVariablen {
+	public static void main(String[] args) {
+		//Deklaration
+		byte byteZahl;
+		//Zuweisung
+		byteZahl = Byte.MAX_VALUE;
+		System.out.print(byteZahl);
+	}
+}

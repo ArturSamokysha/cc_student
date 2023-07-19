@@ -1,0 +1,24 @@
+package operatoren;
+
+public class DemoLogischeOperatoren {
+	public static void main(String[] args) {
+		//Negationsoperator
+		boolean bool1 = true;
+		boolean bool2 = !bool1;
+		System.out.println("bool2: " + bool2);
+		
+		//Exklusive Oder
+		boolean bool3 = true;
+		boolean bool4 = true;
+		boolean ergEOder = bool3 ^ bool4;
+		System.out.println("true ^ true: " + ergEOder);
+		
+		//Oder 
+		boolean ergEOderK = bool3 || bool4;
+		System.out.println("true || true: " + ergEOderK);
+		
+		
+		
+	}
+	
+}

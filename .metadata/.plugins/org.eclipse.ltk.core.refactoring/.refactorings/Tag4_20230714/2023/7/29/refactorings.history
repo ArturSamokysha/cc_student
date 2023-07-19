@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;operatoren&apos; to &apos;Tag5_20230717/src&apos;&#x0D;&#x0A;- Original project: &apos;Tag4_20230714&apos;&#x0D;&#x0A;- Destination element: &apos;Tag5_20230717/src&apos;&#x0D;&#x0A;- Original element: &apos;Tag4_20230714/src/operatoren&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Tag5_20230717/src" element1="/src&lt;operatoren" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1689583919479" version="1.0"/>
+</session>

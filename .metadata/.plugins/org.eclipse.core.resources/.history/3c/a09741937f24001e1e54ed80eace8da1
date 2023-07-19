@@ -1,0 +1,5 @@
+package operatoren;
+
+public class DemoLogischeOperatoren {
+	System.out.print("Hello")
+}

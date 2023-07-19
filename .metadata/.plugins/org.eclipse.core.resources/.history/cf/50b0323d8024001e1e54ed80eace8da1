@@ -1,0 +1,11 @@
+package operatoren;
+
+public class DemoLogischeOperatoren {
+	public static void main(String[] args) {
+		//Negationsoperator
+		boolean bool1 = true;
+		boolean bool2 = !bool1;
+		System.out.print("bool2: " + bool2);
+	}
+	
+}
