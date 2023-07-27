@@ -8,6 +8,8 @@ public class AppAuto {
 		meinAuto = new Auto();//new Objekt erstellen. Auto() - der Konstruktor wird aufgerufen
 		//Konstruktor
 		
+		//Zugrif fáuf Zustände und Methoden eines Objekt mit Punktnotation
+		
 		System.out.println(meinAuto);
 		System.out.println(meinAuto.toString());
 		

@@ -18,6 +18,11 @@ public class Auto {
 	public int demoAtributSichtbarkeit = 2;	
 	//Zum Ändern und zum Auslesen der Werte der Atribute gibt es spezielle (getter und setter) Methoden
 	
+	
+	public Auto() {
+		System.out.println("Konstruktor");
+	}
+	
 	public int getMaxGeschwindigkeit() {
 		return maxGeschwindigkeit;
 	}
