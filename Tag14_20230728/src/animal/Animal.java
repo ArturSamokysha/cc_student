@@ -11,6 +11,7 @@ public class Animal {
 	private String name;
 	private int alter;
 	
+	//test 
 	public Animal() {
 		instanzZaehler++;
 		System.out.printf("I am animal no. %d %n", instanzZaehler);
