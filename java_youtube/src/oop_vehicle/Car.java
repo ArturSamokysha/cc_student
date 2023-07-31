@@ -1,13 +1,28 @@
-package oop_cars;
+package oop_vehicle;
 
 public class Car {
 	//fields
+	private String vehicle; 
 	private String brand;
 	private int year;
 	private int price;
 	private boolean electric;
 	
+	//methods
+	public void description(String brand) {
+		System.out.println(brand + " Short vihecle description");
+	}
+	
+	
 	//getter and setter
+	
+	
+	public String getVehicle() {
+		return vehicle;
+	}
+	public void setVehilce(String vehicle) {
+		this.vehicle = vehicle;
+	}
 	public String getBrand() {
 		return brand;
 	}
@@ -34,7 +49,9 @@ public class Car {
 	}
 	
 	//constructor
-	public Car (String brand, int year, int price, boolean electric) {
+	public Car (String vehicle, String brand, int year, int price, boolean electric) {
+		super();
+		this.vehicle = vehicle;
 		this.brand = brand;
 		this.year = year;
 		this.price = price;
