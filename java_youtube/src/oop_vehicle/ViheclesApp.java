@@ -13,19 +13,21 @@ public class ViheclesApp {
 							"\nYear: " + id_1.getYear() +
 							"\nPrice: " + id_1.getPrice() +
 							"\nElectric: " + id_1.isElectric());
-		id_1.description("BMW");
+		id_1.testDrive();
 		
 		System.out.println("\nVehicle: " + id_2.getVehicle() +
 							"\nBrand: " + id_2.getBrand() + 
 							"\nYear: " + id_2.getYear() +
 							"\nPrice: " + id_2.getPrice() +
 							"\nElectric: " + id_2.isElectric());
+		id_2.testDrive();
 		
 		System.out.println("\nVehicle: " + id_3.getVihecle() +
 							"\nBrand: " + id_3.getBrand() + 
 							"\nYear: " + id_3.getYear() +
 							"\nPrice: " + id_3.getPrice() +
 							"\nElectric: " + id_3.isElectric());
+		id_3.testDrive();
 	}
 
 }

@@ -4,7 +4,13 @@ public class Motorcycle extends Car {
 	//fields
 	private int max_speed;
 	private String vehicle;
+	private char driver_license = 'A';
 
+	//methods
+	public void testDrive() {
+		System.out.println("Test drive with driver license class: " + driver_license);
+	}
+	
 	//getter and setter
 	public String getVihecle() {
 		return vehicle;

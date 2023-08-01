@@ -7,10 +7,11 @@ public class Car {
 	private int year;
 	private int price;
 	private boolean electric;
+	private char driver_license = 'B';
 	
 	//methods
-	public void description(String brand) {
-		System.out.println(brand + " Short vihecle description");
+	public void testDrive() {
+		System.out.println("Test drive with driver license class: " + driver_license);
 	}
 	
 	
