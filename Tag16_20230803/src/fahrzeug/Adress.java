@@ -47,19 +47,19 @@ public class Adress {
 		this.ort = ort;
 	}
 	
-	//konstruktor autohersteller
-	public Adress (String vorname, String strassenname, int hausnummer, int plz, String ort) {
-		this.vorname = vorname;
-		this.strassenname = strassenname;
-		this.hausnummer = hausnummer;
-		this.plz = plz;
-		this.ort = ort;
-	}
+//	//konstruktor autohersteller
+//	public Adress (String vorname, String strassenname, int hausnummer, int plz, String ort) {
+//		this.vorname = vorname;
+//		this.strassenname = strassenname;
+//		this.hausnummer = hausnummer;
+//		this.plz = plz;
+//		this.ort = ort;
+//	}
 	
 	//konstruktor kunde
-		public Adress (String vorname, String nachname, String strassenname, int hausnummer, int plz, String ort) {
+		public Adress (String vorname, String strassenname, int hausnummer, int plz, String ort) {
 			this.vorname = vorname;
-			this.nachname = nachname;
+			//this.nachname = nachname;
 			this.strassenname = strassenname;
 			this.hausnummer = hausnummer;
 			this.plz = plz;
@@ -68,13 +68,13 @@ public class Adress {
 	
 	//methode
 	public String printAdress() {
-		return vorname +", "+ nachname +", "+ strassenname +", "+ hausnummer +", "+ plz +", "+ ort;
+		return vorname +", "+ strassenname +", "+ hausnummer +", "+ plz +", "+ ort;
 	}
 	
-	
-	
-	
-	
+	@Override
+	public String toString() {
+		return vorname +", "+ strassenname +", "+ hausnummer +", "+ plz +", "+ ort;
+	}
 	
 }
 

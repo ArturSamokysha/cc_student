@@ -7,8 +7,8 @@ public class MotorVehicle {
 	private int hoehe;
 	private int gewicht;
 	private String automarke;
-	private String startadresse;
-	private String endadresse;
+	private Adress startadresse;
+	private Adress endadresse;
 	private boolean selbstabholer;
 	
 	//get, set
@@ -42,16 +42,16 @@ public class MotorVehicle {
 	public void setAutomarke(String automarke) {
 		this.automarke = automarke;
 	}
-	public String getStartadresse() {
+	public Adress getStartadresse() {
 		return startadresse;
 	}
-	public void setStartadresse(String startadresse) {
+	public void setStartadresse(Adress startadresse) {
 		this.startadresse = startadresse;
 	}
-	public String getEndadresse() {
+	public Adress getEndadresse() {
 		return endadresse;
 	}
-	public void setEndadresse(String endadresse) {
+	public void setEndadresse(Adress endadresse) {
 		this.endadresse = endadresse;
 	}
 	public boolean isSelbstabholer() {
@@ -62,7 +62,7 @@ public class MotorVehicle {
 	}
 	
 	//konstruktor
-	public MotorVehicle(int laenge, int breite, int hoehe, int gewicht, String automarke, String startadresse, String endadresse, boolean selbstabholer) {
+	public MotorVehicle(int laenge, int breite, int hoehe, int gewicht, String automarke, Adress startadresse, Adress endadresse, boolean selbstabholer) {
 		this.laenge = laenge;
 		this.breite = breite;
 		this.hoehe = hoehe;
@@ -74,13 +74,13 @@ public class MotorVehicle {
 	}
 	
 	//method
-	public String printMotorVehicle() {
-		if (selbstabholer == true) {
+	public void printMotorVehicle() {
+		if (selbstabholer) {
 			System.out.println("Hoehe x Breite x Tiefe: " + laenge +"cm x "+ breite +"cm x "+ hoehe +"cm\n"+
 					"Gewicht: " + gewicht +" kg"+"\n"+
 					"Automarke: " + automarke +"\n"+ 
-					"Startadresse: " + startadresse +"\n"+ 
-					"Endadresse: " + endadresse + "\n" + 
+					"Startadresse: " + startadresse.toString() +"\n"+ 
+					"Endadresse: " + endadresse.printAdress() + "\n" + 
 					"Selbstabholer" + "\n");
 		}else {
 			System.out.println("Hoehe x Breite x Tiefe: " + laenge +"cm x "+ breite +"cm x "+ hoehe +"cm\n"+
@@ -91,7 +91,7 @@ public class MotorVehicle {
 					"Kein Selbstabholer" + "\n");
 		}
 		
-		return laenge +" "+ breite +" "+ hoehe +" "+ gewicht +" "+ automarke +" "+ startadresse +" "+ endadresse;
+		//return laenge +" "+ breite +" "+ hoehe +" "+ gewicht +" "+ automarke +" "+ startadresse +" "+ endadresse;
 	}
 }
 
